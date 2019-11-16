@@ -1,5 +1,13 @@
-#include<stdio.h>
+/*
+ * compile on my mac we need to use g++ -std=c++11 filename -o excutable file 
+ *
+ */
 
+#include<stdio.h>
+#include<vector>
+#include<iostream>
+
+using namespace std;
 void swap(vector<int>& nums, int i, int j)
 {
 int temp;
