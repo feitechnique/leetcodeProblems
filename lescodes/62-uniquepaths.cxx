@@ -1,3 +1,16 @@
+/*
+ * i=1 j=1
+ * dp[1][1] = dp[0][1] + dp [1][0] = 2
+ * i=1 j=2
+ * dp[1][2] = dp[0][2] + dp [1][1] = 3
+ * ...
+ * dp[m-1][n-1] = dp[m-2][n-1] + dp[m-1][n-2]
+ *
+ */
+
+
+
+
 class Solution {
 public:
     int uniquePaths(int m, int n) {
